@@ -191,10 +191,11 @@ Snorkel Blue:
 
       # ── Tabs / Shoelace (2025.5+) ─────────────────────────────────────────
       # Profile page, settings page, and dashboard view tabs
-      ha-tab-active-text-color: "#034F84"
-      ha-tab-indicator-color: "#034F84"
-      sl-color-primary-600: "#034F84"
-      sl-color-neutral-600: "#4A5D6F"
+      # On pages with primary-color header/navbar, active tab must be light
+      ha-tab-active-text-color: "#FFFFFF"
+      ha-tab-indicator-color: "#F3A724"
+      sl-color-primary-600: "#FFFFFF"
+      sl-color-neutral-600: "#A7D2F0"
 
       # ── 2026.04 semantic form variables ──────────────────────────────────
       ha-color-form-background: "#EAF0F6"
@@ -382,9 +383,9 @@ Snorkel Blue:
 
       # ── Tabs / Shoelace (2025.5+) ─────────────────────────────────────────
       # Profile page, settings page, and dashboard view tabs
-      ha-tab-active-text-color: "#5BB3F0"
-      ha-tab-indicator-color: "#5BB3F0"
-      sl-color-primary-600: "#5BB3F0"
+      ha-tab-active-text-color: "#FFFFFF"
+      ha-tab-indicator-color: "#F3A724"
+      sl-color-primary-600: "#FFFFFF"
       sl-color-neutral-600: "#94A8BC"
 
       # ── 2026.04 semantic form variables ──────────────────────────────────
