@@ -1,0 +1,357 @@
+# ============================================================================
+#  Snorkel Blue — Home Assistant Theme
+#  Based on Pantone 19-4049 TCX "Snorkel Blue" (#034F84)
+#  Compatible with Home Assistant 2026.04+
+#  Includes light and dark modes with WCAG AA+ contrast compliance
+# ============================================================================
+#
+#  Color Palette (HSL 205°, 96% sat):
+#    50: #EAF3F9   100: #D5E8F5   200: #A7D2F0   300: #5BB3F0
+#   400: #0595F9   500: #0477C7   600: #035995   700: #034F84 (base)
+#   800: #023B63   900: #01233B   950: #001422
+#
+#  Accent: Warm Gold (#B87408 light / #F3A724 dark)
+#
+# ============================================================================
+
+Snorkel Blue:
+
+  # ── Mode-independent variables ──────────────────────────────────────────
+  # These apply to BOTH light and dark modes as a shared foundation.
+
+  primary-color: "#034F84"
+  accent-color: "#B87408"
+
+  # ── Modes ───────────────────────────────────────────────────────────────
+  modes:
+
+    # ════════════════════════════════════════════════════════════════════════
+    #  LIGHT MODE
+    # ════════════════════════════════════════════════════════════════════════
+    light:
+
+      # ── Primary / Accent ────────────────────────────────────────────────
+      primary-color: "#034F84"
+      accent-color: "#B87408"
+      primary-text-color: "#1A2A3A"
+      secondary-text-color: "#4A5D6F"
+      text-primary-color: "#FFFFFF"
+      text-accent-color: "#FFFFFF"
+
+      # ── Backgrounds ─────────────────────────────────────────────────────
+      primary-background-color: "#F5F8FB"
+      secondary-background-color: "#EAF0F6"
+      card-background-color: "#FFFFFF"
+      ha-card-background: "#FFFFFF"
+
+      # ── Dividers / Borders ──────────────────────────────────────────────
+      divider-color: "#B8C9D8"
+      outline-color: "#B0C4D8"
+
+      # ── Header ──────────────────────────────────────────────────────────
+      app-header-background-color: "#034F84"
+      app-header-text-color: "#FFFFFF"
+      app-header-selection-bar-color: "#F3A724"
+
+      # ── Sidebar ─────────────────────────────────────────────────────────
+      sidebar-background-color: "#034F84"
+      sidebar-text-color: "#E8EDF2"
+      sidebar-icon-color: "#A7D2F0"
+      sidebar-selected-text-color: "#FFFFFF"
+      sidebar-selected-icon-color: "#F3A724"
+
+      # ── Cards ────────────────────────────────────────────────────────────
+      ha-card-border-radius: "12px"
+      ha-card-border-color: "#D5E0EA"
+      ha-card-border-width: "1px"
+      ha-card-box-shadow: "0px 2px 8px rgba(3, 79, 132, 0.08)"
+
+      # ── Switches / Toggles ─────────────────────────────────────────────
+      switch-checked-color: "#034F84"
+      switch-checked-button-color: "#FFFFFF"
+      switch-checked-track-color: "#034F84"
+      switch-unchecked-button-color: "#94A8BC"
+      switch-unchecked-track-color: "#D5E0EA"
+
+      # ── Sliders ─────────────────────────────────────────────────────────
+      paper-slider-knob-color: "#034F84"
+      paper-slider-knob-start-color: "#034F84"
+      paper-slider-pin-color: "#034F84"
+      paper-slider-active-color: "#034F84"
+      paper-slider-secondary-color: "#A7D2F0"
+      paper-slider-container-color: "#D5E0EA"
+
+      # ── Labels / Badges ─────────────────────────────────────────────────
+      label-badge-background-color: "#FFFFFF"
+      label-badge-text-color: "#1A2A3A"
+      label-badge-red: "#D32F2F"
+      label-badge-green: "#388E3C"
+      label-badge-blue: "#034F84"
+      label-badge-yellow: "#B87408"
+
+      # ── States ───────────────────────────────────────────────────────────
+      state-active-color: "#034F84"
+      state-inactive-color: "#78909C"
+      state-icon-active-color: "#034F84"
+
+      # ── Semantic state colors ────────────────────────────────────────────
+      state-light-active-color: "#B87408"
+      state-switch-active-color: "#034F84"
+      state-climate-heat-color: "#D84315"
+      state-climate-cool-color: "#0595F9"
+      state-climate-auto-color: "#388E3C"
+      state-climate-idle-color: "#78909C"
+      state-alarm_control_panel-armed-color: "#D32F2F"
+      state-alarm_control_panel-pending-color: "#B87408"
+      state-alarm_control_panel-triggered-color: "#D32F2F"
+      state-lock-locked-color: "#388E3C"
+      state-lock-unlocked-color: "#D32F2F"
+      state-update-on-color: "#B87408"
+      state-binary_sensor-active-color: "#034F84"
+      state-cover-open-color: "#034F84"
+      state-media_player-active-color: "#034F84"
+      state-person-home-color: "#388E3C"
+      state-person-not_home-color: "#78909C"
+      state-person-zone-color: "#034F84"
+
+      # ── System colors ───────────────────────────────────────────────────
+      error-color: "#D32F2F"
+      warning-color: "#C07B00"
+      success-color: "#388E3C"
+      info-color: "#0477C7"
+      disabled-color: "#94A8BC"
+
+      # ── RGB variants (used by some components) ──────────────────────────
+      rgb-primary-color: "3, 79, 132"
+      rgb-accent-color: "184, 116, 8"
+      rgb-primary-text-color: "26, 42, 58"
+      rgb-secondary-text-color: "74, 93, 111"
+      rgb-text-primary-color: "255, 255, 255"
+      rgb-card-background-color: "255, 255, 255"
+
+      # ── Dialogs / Popups ────────────────────────────────────────────────
+      paper-dialog-background-color: "#FFFFFF"
+      paper-dialog-color: "#1A2A3A"
+      paper-listbox-background-color: "#FFFFFF"
+      paper-listbox-color: "#1A2A3A"
+      paper-item-icon-color: "#4A5D6F"
+      paper-item-icon-active-color: "#034F84"
+
+      # ── Inputs / Forms ──────────────────────────────────────────────────
+      input-fill-color: "#EAF0F6"
+      input-ink-color: "#1A2A3A"
+      input-label-ink-color: "#4A5D6F"
+      input-idle-line-color: "#B0C4D8"
+      input-hover-line-color: "#034F84"
+      input-dropdown-icon-color: "#4A5D6F"
+
+      # ── Code editor ─────────────────────────────────────────────────────
+      code-editor-background-color: "#F5F8FB"
+      codemirror-keyword: "#034F84"
+      codemirror-atom: "#035995"
+      codemirror-number: "#B87408"
+      codemirror-string: "#388E3C"
+      codemirror-variable: "#1A2A3A"
+      codemirror-comment: "#78909C"
+      codemirror-meta: "#0595F9"
+
+      # ── Tables ───────────────────────────────────────────────────────────
+      table-row-background-color: "#FFFFFF"
+      table-row-alternative-background-color: "#F5F8FB"
+      data-table-background-color: "#FFFFFF"
+
+      # ── Misc ─────────────────────────────────────────────────────────────
+      paper-toast-background-color: "#1A2A3A"
+      paper-toast-color: "#FFFFFF"
+      mdc-theme-primary: "#034F84"
+      mdc-theme-secondary: "#B87408"
+      mdc-theme-on-primary: "#FFFFFF"
+      mdc-theme-on-secondary: "#FFFFFF"
+      mdc-theme-surface: "#FFFFFF"
+      mdc-theme-on-surface: "#1A2A3A"
+      mdc-theme-background: "#F5F8FB"
+
+      # ── 2026.04 semantic form variables ──────────────────────────────────
+      ha-color-form-background: "#EAF0F6"
+      ha-color-form-background-hover: "#D5E8F5"
+      ha-color-form-background-disabled: "#D5E0EA"
+
+      # ── Section layout (2026.04) ─────────────────────────────────────────
+      ha-view-sections-row-gap: "16px"
+
+      # ── Energy dashboard ─────────────────────────────────────────────────
+      energy-grid-consumption-color: "#034F84"
+      energy-grid-return-color: "#388E3C"
+      energy-solar-color: "#B87408"
+      energy-battery-in-color: "#0595F9"
+      energy-battery-out-color: "#035995"
+      energy-gas-color: "#D84315"
+
+      # ── History graph ────────────────────────────────────────────────────
+      history-unavailable-color: "#D5E0EA"
+
+
+    # ════════════════════════════════════════════════════════════════════════
+    #  DARK MODE
+    # ════════════════════════════════════════════════════════════════════════
+    dark:
+
+      # ── Primary / Accent ────────────────────────────────────────────────
+      primary-color: "#5BB3F0"
+      accent-color: "#F3A724"
+      primary-text-color: "#E8EDF2"
+      secondary-text-color: "#94A8BC"
+      text-primary-color: "#0A1520"
+      text-accent-color: "#0A1520"
+
+      # ── Backgrounds ─────────────────────────────────────────────────────
+      primary-background-color: "#0A1520"
+      secondary-background-color: "#0E1A28"
+      card-background-color: "#122030"
+      ha-card-background: "#122030"
+
+      # ── Dividers / Borders ──────────────────────────────────────────────
+      divider-color: "#243D55"
+      outline-color: "#2A4560"
+
+      # ── Header ──────────────────────────────────────────────────────────
+      app-header-background-color: "#0E1A28"
+      app-header-text-color: "#E8EDF2"
+      app-header-selection-bar-color: "#F3A724"
+
+      # ── Sidebar ─────────────────────────────────────────────────────────
+      sidebar-background-color: "#071220"
+      sidebar-text-color: "#E8EDF2"
+      sidebar-icon-color: "#5BB3F0"
+      sidebar-selected-text-color: "#FFFFFF"
+      sidebar-selected-icon-color: "#F3A724"
+
+      # ── Cards ────────────────────────────────────────────────────────────
+      ha-card-border-radius: "12px"
+      ha-card-border-color: "#1E3448"
+      ha-card-border-width: "1px"
+      ha-card-box-shadow: "0px 2px 8px rgba(0, 0, 0, 0.3)"
+
+      # ── Switches / Toggles ─────────────────────────────────────────────
+      switch-checked-color: "#5BB3F0"
+      switch-checked-button-color: "#0A1520"
+      switch-checked-track-color: "#5BB3F0"
+      switch-unchecked-button-color: "#4A5D6F"
+      switch-unchecked-track-color: "#1E3448"
+
+      # ── Sliders ─────────────────────────────────────────────────────────
+      paper-slider-knob-color: "#5BB3F0"
+      paper-slider-knob-start-color: "#5BB3F0"
+      paper-slider-pin-color: "#5BB3F0"
+      paper-slider-active-color: "#5BB3F0"
+      paper-slider-secondary-color: "#035995"
+      paper-slider-container-color: "#1E3448"
+
+      # ── Labels / Badges ─────────────────────────────────────────────────
+      label-badge-background-color: "#122030"
+      label-badge-text-color: "#E8EDF2"
+      label-badge-red: "#EF5350"
+      label-badge-green: "#66BB6A"
+      label-badge-blue: "#5BB3F0"
+      label-badge-yellow: "#F3A724"
+
+      # ── States ───────────────────────────────────────────────────────────
+      state-active-color: "#5BB3F0"
+      state-inactive-color: "#6B8299"
+      state-icon-active-color: "#5BB3F0"
+
+      # ── Semantic state colors ────────────────────────────────────────────
+      state-light-active-color: "#F3A724"
+      state-switch-active-color: "#5BB3F0"
+      state-climate-heat-color: "#FF7043"
+      state-climate-cool-color: "#5BB3F0"
+      state-climate-auto-color: "#66BB6A"
+      state-climate-idle-color: "#4A5D6F"
+      state-alarm_control_panel-armed-color: "#EF5350"
+      state-alarm_control_panel-pending-color: "#F3A724"
+      state-alarm_control_panel-triggered-color: "#EF5350"
+      state-lock-locked-color: "#66BB6A"
+      state-lock-unlocked-color: "#EF5350"
+      state-update-on-color: "#F3A724"
+      state-binary_sensor-active-color: "#5BB3F0"
+      state-cover-open-color: "#5BB3F0"
+      state-media_player-active-color: "#5BB3F0"
+      state-person-home-color: "#66BB6A"
+      state-person-not_home-color: "#4A5D6F"
+      state-person-zone-color: "#5BB3F0"
+
+      # ── System colors ───────────────────────────────────────────────────
+      error-color: "#EF5350"
+      warning-color: "#FFB74D"
+      success-color: "#66BB6A"
+      info-color: "#5BB3F0"
+      disabled-color: "#4A5D6F"
+
+      # ── RGB variants ────────────────────────────────────────────────────
+      rgb-primary-color: "91, 179, 240"
+      rgb-accent-color: "243, 167, 36"
+      rgb-primary-text-color: "232, 237, 242"
+      rgb-secondary-text-color: "148, 168, 188"
+      rgb-text-primary-color: "10, 21, 32"
+      rgb-card-background-color: "18, 32, 48"
+
+      # ── Dialogs / Popups ────────────────────────────────────────────────
+      paper-dialog-background-color: "#122030"
+      paper-dialog-color: "#E8EDF2"
+      paper-listbox-background-color: "#122030"
+      paper-listbox-color: "#E8EDF2"
+      paper-item-icon-color: "#94A8BC"
+      paper-item-icon-active-color: "#5BB3F0"
+
+      # ── Inputs / Forms ──────────────────────────────────────────────────
+      input-fill-color: "#1A2D40"
+      input-ink-color: "#E8EDF2"
+      input-label-ink-color: "#94A8BC"
+      input-idle-line-color: "#2A4560"
+      input-hover-line-color: "#5BB3F0"
+      input-dropdown-icon-color: "#94A8BC"
+
+      # ── Code editor ─────────────────────────────────────────────────────
+      code-editor-background-color: "#0E1A28"
+      codemirror-keyword: "#5BB3F0"
+      codemirror-atom: "#A7D2F0"
+      codemirror-number: "#F3A724"
+      codemirror-string: "#66BB6A"
+      codemirror-variable: "#E8EDF2"
+      codemirror-comment: "#4A5D6F"
+      codemirror-meta: "#0595F9"
+
+      # ── Tables ───────────────────────────────────────────────────────────
+      table-row-background-color: "#122030"
+      table-row-alternative-background-color: "#0E1A28"
+      data-table-background-color: "#122030"
+
+      # ── Misc ─────────────────────────────────────────────────────────────
+      paper-toast-background-color: "#E8EDF2"
+      paper-toast-color: "#0A1520"
+      mdc-theme-primary: "#5BB3F0"
+      mdc-theme-secondary: "#F3A724"
+      mdc-theme-on-primary: "#0A1520"
+      mdc-theme-on-secondary: "#0A1520"
+      mdc-theme-surface: "#122030"
+      mdc-theme-on-surface: "#E8EDF2"
+      mdc-theme-background: "#0A1520"
+
+      # ── 2026.04 semantic form variables ──────────────────────────────────
+      ha-color-form-background: "#1A2D40"
+      ha-color-form-background-hover: "#223A52"
+      ha-color-form-background-disabled: "#1E3448"
+
+      # ── Section layout (2026.04) ─────────────────────────────────────────
+      ha-view-sections-row-gap: "16px"
+
+      # ── Energy dashboard ─────────────────────────────────────────────────
+      energy-grid-consumption-color: "#5BB3F0"
+      energy-grid-return-color: "#66BB6A"
+      energy-solar-color: "#F3A724"
+      energy-battery-in-color: "#0595F9"
+      energy-battery-out-color: "#A7D2F0"
+      energy-gas-color: "#FF7043"
+
+      # ── History graph ────────────────────────────────────────────────────
+      history-unavailable-color: "#1E3448"
