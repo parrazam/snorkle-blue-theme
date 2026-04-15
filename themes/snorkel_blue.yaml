@@ -171,6 +171,13 @@ Snorkel Blue:
       mdc-theme-on-surface: "#1A2A3A"
       mdc-theme-background: "#F5F8FB"
 
+      # ── Tabs / Shoelace (2025.5+) ─────────────────────────────────────────
+      # Profile page, settings page, and dashboard view tabs
+      ha-tab-active-text-color: "#034F84"
+      ha-tab-indicator-color: "#034F84"
+      sl-color-primary-600: "#034F84"
+      sl-color-neutral-600: "#4A5D6F"
+
       # ── 2026.04 semantic form variables ──────────────────────────────────
       ha-color-form-background: "#EAF0F6"
       ha-color-form-background-hover: "#D5E8F5"
@@ -336,6 +343,13 @@ Snorkel Blue:
       mdc-theme-surface: "#122030"
       mdc-theme-on-surface: "#E8EDF2"
       mdc-theme-background: "#0A1520"
+
+      # ── Tabs / Shoelace (2025.5+) ─────────────────────────────────────────
+      # Profile page, settings page, and dashboard view tabs
+      ha-tab-active-text-color: "#5BB3F0"
+      ha-tab-indicator-color: "#5BB3F0"
+      sl-color-primary-600: "#5BB3F0"
+      sl-color-neutral-600: "#94A8BC"
 
       # ── 2026.04 semantic form variables ──────────────────────────────────
       ha-color-form-background: "#1A2D40"
