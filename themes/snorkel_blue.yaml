@@ -50,17 +50,19 @@ Snorkel Blue:
       outline-color: "#B0C4D8"
 
       # ── Header ──────────────────────────────────────────────────────────
-      # Light header with primary-color text ensures active tabs are visible
-      app-header-background-color: "#FFFFFF"
-      app-header-text-color: "#034F84"
-      app-header-selection-bar-color: "#034F84"
+      # Note: HA profile page overrides this with sidebar-background-color
+      app-header-background-color: "#034F84"
+      app-header-text-color: "#FFFFFF"
+      app-header-selection-bar-color: "#F3A724"
 
       # ── Sidebar ─────────────────────────────────────────────────────────
-      sidebar-background-color: "#034F84"
-      sidebar-text-color: "#E8EDF2"
-      sidebar-icon-color: "#A7D2F0"
-      sidebar-selected-text-color: "#FFFFFF"
-      sidebar-selected-icon-color: "#F3A724"
+      # HA profile page uses sidebar-background-color for the tab bar,
+      # so sidebar must contrast with primary-color (used for active tab).
+      sidebar-background-color: "#F5F8FB"
+      sidebar-text-color: "#1A2A3A"
+      sidebar-icon-color: "#034F84"
+      sidebar-selected-text-color: "#034F84"
+      sidebar-selected-icon-color: "#B87408"
 
       # ── Cards ────────────────────────────────────────────────────────────
       ha-card-border-radius: "12px"
