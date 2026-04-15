@@ -24,7 +24,7 @@ A carefully crafted theme for Home Assistant based on **Pantone 19-4049 TCX "Sno
 | Card | `#FFFFFF` White | `#122030` Midnight |
 | Text | `#1A2A3A` Ink | `#E8EDF2` Mist |
 | Header | `#FFFFFF` White | `#0E1A28` Deep Navy |
-| Sidebar | `#034F84` Snorkel Blue | `#071220` Abyss |
+| Sidebar | `#F5F8FB` Ice | `#071220` Abyss |
 
 ## Installation
 
