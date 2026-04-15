@@ -32,6 +32,7 @@ Snorkel Blue:
 
       # ── Primary / Accent ────────────────────────────────────────────────
       primary-color: "#034F84"
+      light-primary-color: "#5BB3F0"
       accent-color: "#B87408"
       primary-text-color: "#1A2A3A"
       secondary-text-color: "#4A5D6F"
@@ -49,9 +50,10 @@ Snorkel Blue:
       outline-color: "#B0C4D8"
 
       # ── Header ──────────────────────────────────────────────────────────
-      app-header-background-color: "#034F84"
-      app-header-text-color: "#FFFFFF"
-      app-header-selection-bar-color: "#F3A724"
+      # Light header with primary-color text ensures active tabs are visible
+      app-header-background-color: "#FFFFFF"
+      app-header-text-color: "#034F84"
+      app-header-selection-bar-color: "#034F84"
 
       # ── Sidebar ─────────────────────────────────────────────────────────
       sidebar-background-color: "#034F84"
@@ -191,11 +193,10 @@ Snorkel Blue:
 
       # ── Tabs / Shoelace (2025.5+) ─────────────────────────────────────────
       # Profile page, settings page, and dashboard view tabs
-      # On pages with primary-color header/navbar, active tab must be light
-      ha-tab-active-text-color: "#FFFFFF"
-      ha-tab-indicator-color: "#F3A724"
-      sl-color-primary-600: "#FFFFFF"
-      sl-color-neutral-600: "#A7D2F0"
+      ha-tab-active-text-color: "#034F84"
+      ha-tab-indicator-color: "#034F84"
+      sl-color-primary-600: "#034F84"
+      sl-color-neutral-600: "#4A5D6F"
 
       # ── 2026.04 semantic form variables ──────────────────────────────────
       ha-color-form-background: "#EAF0F6"
@@ -224,6 +225,7 @@ Snorkel Blue:
 
       # ── Primary / Accent ────────────────────────────────────────────────
       primary-color: "#5BB3F0"
+      light-primary-color: "#A7D2F0"
       accent-color: "#F3A724"
       primary-text-color: "#E8EDF2"
       secondary-text-color: "#94A8BC"
