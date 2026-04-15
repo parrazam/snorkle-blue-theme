@@ -7,9 +7,10 @@ A carefully crafted theme for Home Assistant based on **Pantone 19-4049 TCX "Sno
 ## Features
 
 - **Dual mode**: Light and dark variants, switchable from user profile
-- **WCAG AA+ compliant**: All 76 text/icon/UI contrast pairs validated ≥ 3:1 (UI) / ≥ 4.5:1 (text)
-- **Complete coverage**: 116 variables per mode — cards, sidebar, header, switches, sliders, inputs, dialogs, code editor, energy dashboard, and all semantic entity states
-- **2026.04 ready**: Includes the new `ha-color-form-background` semantic variables and `ha-view-sections-row-gap`
+- **WCAG AA+ compliant**: All text/icon/UI contrast pairs validated ≥ 3:1 (UI) / ≥ 4.5:1 (text)
+- **Complete coverage**: 136+ variables per mode — cards, sidebar, header, switches, sliders, inputs, dialogs, code editor, energy dashboard, and all semantic entity states
+- **2026.04 ready**: Includes the new `ha-color-form-background` semantic variables, `ha-view-sections-row-gap`, and Material Design 3 system color tokens
+- **Shoelace compatible**: Includes `sl-color-primary-600`, `ha-tab-active-text-color`, and related variables for proper tab rendering (2025.5+)
 - **No dependencies**: Works standalone, no card-mod required
 - **Energy dashboard colors**: Tuned for readability on both modes
 
@@ -22,6 +23,8 @@ A carefully crafted theme for Home Assistant based on **Pantone 19-4049 TCX "Sno
 | Background | `#F5F8FB` Ice | `#0A1520` Deep Sea |
 | Card | `#FFFFFF` White | `#122030` Midnight |
 | Text | `#1A2A3A` Ink | `#E8EDF2` Mist |
+| Header | `#FFFFFF` White | `#0E1A28` Deep Navy |
+| Sidebar | `#034F84` Snorkel Blue | `#071220` Abyss |
 
 ## Installation
 
@@ -47,6 +50,7 @@ A carefully crafted theme for Home Assistant based on **Pantone 19-4049 TCX "Sno
 ## Compatibility
 
 - **Home Assistant**: 2026.04+
+- **Frontend**: Shoelace components (2025.5+) and Material Design 3 tokens
 - **Companion Apps**: iOS and Android (auto-syncs theme)
 
 ## License
